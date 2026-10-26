@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "fireworkindicator",
+  "version": "${version}",
+  "name": "FireworkIndicator 1.21.11 Port",
+  "description": "Shows the remaining estimated duration of an elytra firework boost.",
+  "authors": ["TheMasterKitty", "Compatibility port"],
+  "environment": "client",
+  "entrypoints": { "client": ["themasterkitty.fireworkindicator.Main"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
